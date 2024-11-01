@@ -1,0 +1,1 @@
+UPDATE wp_wic_option_value set option_label = '' WHERE parent_option_group_slug = 'wic_live_issue_options' and option_value = '';

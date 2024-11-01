@@ -1,0 +1,50 @@
+/*
+* css for manage storage form
+*/
+
+#wic-field-group-staging {
+	margin-top: 0;
+}
+
+#wic-form-manage-storage #wic-inner-field-group-constituent-show-hide-legend,
+#wic-form-manage-storage #wic-inner-field-group-staging-show-hide-legend,
+#wic-form-manage-storage #wic-inner-field-group-search-show-hide-legend,
+#wic-inner-field-group-statistics-toggle-button {
+	display: none;
+}
+
+
+#wic-form-manage-storage #wic-form-sidebar-groups {
+	height: initial;	
+	max-height: initial;
+}
+
+#wic-form-manage-storage .wp-issues-crm-stats td.wic-statistic-table-name  {
+	font-weight: bold;
+	color: green;
+	width: 64%;
+}
+
+#wic-form-manage-storage .wp-issues-crm-stats td.wic-statistic  {
+	font-weight: bold;
+	width: 18%;
+}
+
+#wic-form-manage-storage table.wp-issues-crm-stats {
+	width: 100%;
+}
+
+#wic-form-manage-storage #wic-field-group-statistics {
+	margin: 0 .88888% 0 14.22222%;
+	width: 84.888888%;
+	overflow-x: visible;
+}
+
+#wic-form-manage-storage #wic-form-main-groups {
+	overflow-x: scroll;
+}
+
+#wic-delete-deleted-button {
+	margin-left: 0;
+	width: 40%
+}

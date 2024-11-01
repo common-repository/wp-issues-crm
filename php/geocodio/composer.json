@@ -1,0 +1,5 @@
+{
+    "require": {
+        "stanley/geocodio-php": "~1.0"
+    }
+}

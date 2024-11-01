@@ -1,0 +1,93 @@
+
+/*
+* option group and field form styling 
+*/
+#wic-form-option-group #wic-form-main-groups {
+	width: 100%;
+}
+
+#wic-inner-field-group-option_group-toggle-button p.wic-form-field-group-legend,
+#wic-inner-field-group-option_group-toggle-button,
+#wic-inner-field-group-data_dictionary-toggle-button {
+	display: none;
+}
+
+#wic-field-group-current_option_group_usage {
+	margin: 20px 20px 20px 7.1111%;
+}
+#wic-field-group-current_field_config {
+	margin: 20px 20px 20px 14.22222%;
+}
+#wic-form-main-groups #wic-inner-field-group-current_option_group_usage-toggle-button,
+#wic-form-main-groups #wic-inner-field-group-current_option_group_usage .wic-form-field-group-legend,
+#wic-form-main-groups #wic-inner-field-group-current_field_config-toggle-button,
+#wic-form-main-groups #wic-field-group-current_field_config  .wic-form-field-group-legend {
+	margin-left: 0;
+}
+
+
+/*#wic-form-option-group #wic-field-group-current_option_group_usage {
+	display: none;
+}/
+
+
+/* option form styling */
+
+#wic-form-option-group #wic-sidebar-groups {
+	display: none;
+}	
+
+#wic-form-option-group .wic-input {
+	width: 13.33333%;
+}
+
+#wic-form-option-group label.wic-label {
+	min-width: 6.22222222%;
+	margin-right: 0.88888%;
+}
+
+#wic-form-option-group .wic-input-deleted-label {
+	margin-right: 2.8%; 
+}
+
+
+#wic-control-option-value {
+	padding: 20px 20px 20px 0;
+	margin: 0 20px 20px 0; 
+}
+
+
+/* formatting for individual labels and inputs in the option value form */
+#option_value-control-set label.wic-label {
+	font-size: 0.8em;
+	min-width: 0;
+}
+
+#option_value-control-set label.wic-label::after {
+	content: ": "
+}
+
+#option_value-control-set select.wic-input,
+#option_value-control-set input.wic-input {
+	margin: 5px 20px 5px 0;
+}
+
+#option_value-control-set select.wic-input.enabled {
+	margin-left: 20px;
+	width: 100px;
+}
+
+#option_value-control-set input.wic-input.value-order {
+	border: none;
+	width: 40px;
+}
+
+
+#option_value-control-set label.wic-label.enabled {
+	display: none;
+}
+
+#wic-inner-field-group-data_dictionary .wic-selectmenu-wrapper.wic-input,
+#wic-inner-field-group-data_dictionary input.wic-input {
+	width: 300px;
+}

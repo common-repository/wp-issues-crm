@@ -1,0 +1,2 @@
+INSERT INTO wp_wic_option_value ( parent_option_group_slug, option_value, option_label, value_order, enabled, is_system_reserved, last_updated_time ) VALUES
+( 'delimiter_options', 'pipe', 'Pipe (|)', 70, 1, 0, '2000-01-01 01:01:01');

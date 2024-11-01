@@ -1,0 +1,2 @@
+INSERT INTO wp_wic_option_value ( parent_option_group_slug, option_value, option_label, value_order, enabled, is_system_reserved, last_updated_time ) VALUES
+( 'send_account_options', 'gmail', 'Gmail -- SMTP with Oauth2', 15, 1, 0, '2000-01-01 01:01:01');

@@ -1,0 +1,28 @@
+INSERT INTO wp_wic_option_group ( option_group_slug, option_group_desc, enabled, is_system_reserved, last_updated_time) VALUES
+( 'advanced_search_general_comparisons', 'Advanced Search General Comparison Operators', 1, 1, '2000-01-01 01:01:01'),
+( 'advanced_search_quantitative_comparisons', 'Advanced Search Quantitative Comparison Operators', 1, 1, '2000-01-01 01:01:01'),
+( 'advanced_search_select_comparisons', 'Advanced Search Select Comparison Operators', 1, 1, '2000-01-01 01:01:01'),
+( 'advanced_search_issue_comparisons', 'Advanced Search Issue Comparison Operators', 1, 1, '2000-01-01 01:01:01');
+INSERT INTO wp_wic_option_value ( parent_option_group_slug, option_value, option_label, value_order, enabled, is_system_reserved, last_updated_time) VALUES
+( 'advanced_search_general_comparisons', '=', 'Equals', 10, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_general_comparisons', 'LIKE', 'Begins with', 15, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_general_comparisons', '>=', 'Is greater than or equal to', 20, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_general_comparisons', '<=', 'Is less than or equal to', 30, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_general_comparisons', 'SCAN', 'Contains (caution: slow search)', 40, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_general_comparisons', 'BLANK', 'Is blank', 50, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_general_comparisons', 'NOT_BLANK', 'Is not blank', 60, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_general_comparisons', 'IS_NULL', 'Does not exist (IS NULL)', 70, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_quantitative_comparisons', '=', 'Equals', 10, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_quantitative_comparisons', '>=', 'Is greater than or equal to', 20, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_quantitative_comparisons', '<=', 'Is less than or equal to', 30, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_select_comparisons', '=', 'Equals', 10, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_select_comparisons', 'BLANK', 'Is blank', 20, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_select_comparisons', 'NOT_BLANK', 'Is not blank', 30, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_issue_comparisons', '=', 'Equals', 10, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_issue_comparisons', 'SCAN', 'Contains (caution: slow search)', 20, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_issue_comparisons', 'TAG', 'Tagged', 30, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_issue_comparisons', 'cat', 'Any selected and descendants', 40, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_issue_comparisons', 'category__and', 'All selected ', 50, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_issue_comparisons', 'category__in', 'Any selected but not descendants', 60, 1, 0 , '2000-01-01 01:01:01'),
+( 'advanced_search_issue_comparisons', 'category__not_in', 'None of selected', 70, 1, 0 , '2000-01-01 01:01:01'),
+( 'activity_or_constituent', 'issue', 'Retrieve issues with activities/constituents', 30, 1, 0, '2000-01-01 01:01:01' );

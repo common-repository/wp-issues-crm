@@ -1,0 +1,3 @@
+UPDATE wp_wic_option_value set option_label = 'Not appear in issue dropdown' WHERE parent_option_group_slug = 'wic_live_issue_options' and option_value = '';
+UPDATE wp_wic_option_value set option_label = 'Appear in issue dropdown' WHERE parent_option_group_slug = 'wic_live_issue_options' and option_value = 'open';
+DELETE FROM wp_wic_option_value WHERE parent_option_group_slug = 'wic_live_issue_options' and option_value = 'closed';

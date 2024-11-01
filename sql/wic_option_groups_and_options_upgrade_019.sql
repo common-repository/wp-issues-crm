@@ -1,0 +1,1 @@
+ALTER TABLE wp_wic_inbox_image DROP INDEX unique_on_server;

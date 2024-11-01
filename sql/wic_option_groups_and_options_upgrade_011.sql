@@ -1,0 +1,2 @@
+UPDATE wp_wic_data_dictionary SET field_type = 'selectmenu' WHERE field_slug LIKE 'custom_field_%' AND field_type = 'select';
+UPDATE wp_wic_option_value SET option_value = 'selectmenu' WHERE parent_option_group_slug = 'custom_field_types' AND option_value = 'select';
